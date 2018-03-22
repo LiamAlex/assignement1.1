@@ -15,6 +15,7 @@ public class Course extends Instructor{
     private String courseName;
     private String room;
     private int maxStudents;
+    
 
     public Instructor getInstructor() {
         return instructor;
@@ -55,6 +56,7 @@ public class Course extends Instructor{
     public void setMaxStudents(int maxStudents) {
         this.maxStudents = maxStudents;
     }
+    
     
     
 }
